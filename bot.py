@@ -66,6 +66,7 @@ code = (random.choice(cod6))
 
 #---------
 cod = (uuid.uuid1())
+te = (datetime.today())
 
 #------ clear
 try:
@@ -356,10 +357,10 @@ while True:
 					elif msg.get("text") == "بمولا" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "im the god", message_id=msg.get("message_id"))
-					# re ......--------------
-te = (datetime.today())
+					# re -------------
 
-#-------------------
+
+
 					elif msg.get("text").startswith("!report") :
 						
 						bot.sendMessage(target,"okay :) starting repoter for filter ", message_id=msg.get("message_id"))
