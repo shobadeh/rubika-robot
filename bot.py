@@ -119,7 +119,6 @@ bot.sendMessage(target,"start")
 
 print (bot.editProfile(bio=biu))
 
-print (bot.editProfile(name=esm))
 
 #--------------
 # talking robot -----
